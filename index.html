@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="https://kit.fontawesome.com/1bcdf3cd45.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+      <!-- menu -->
+       <div class="container features">
+        <!-- logo -->
+        <h1 class="logo">
+          snap
+        </h1>
+        <img src="./images/icon-menu.svg" alt="" class="menu-btn">
+        <div class="modal-bg"></div>
+       <div class="main-menu">
+        <img src="./images/icon-close-menu.svg" alt="" class="close-btn">
+         <ul>
+           <li>
+              <div class="dropdown hover">
+              <span class="dropbtn features-btn">Features <i class="fa fa-caret-down"></i></span>
+              <div class="dropdown-content" id="Features">
+                <a href="#"><i class="fas fa-list"></i>Todo List</a>
+                <a href="#"><i class="fas fa-calendar-day"></i>Calender</a>
+                <a href="#"><i class="fas fa-bell"></i>Reminders</a>
+                <a href="#"><i class="fas fa-clock"></i>Planning</a>
+                </div>
+            
+           </li>
+
+           <li>
+              <div class="dropdown hover">
+              <span class="dropbtn company-btn">Company <i class="fa fa-caret-down"></i></span>
+              <div class="dropdown-content" id="company">
+                <a href="#">History</a>
+                <a href="#">Our&nbsp;Team</a>
+                <a href="#">Blog</a>
+             
+                </div>
+            </div>
+           </li>
+
+           <li>
+               <span class="dropbtn">Careers</span>
+           </li>
+
+           <li>
+            <span class="dropbtn">About</span>
+           </li>
+         </ul>
+          <!-- nav-btn -->
+       <div class="nav-btn">
+        <a href="#">Login</a>
+        <a href="#" class="btn">Register</a>
+         </div>
+        </div>
+      </div>
+      
+      
+  
+</header>
+  <!-- hero section -->
+  <section class="hero container">
+       <div class="hero-content">
+        <h1 class="remote">Make <br> remote work</h1>
+        <p>
+          Get your team in sync,no matter your location Streamline processes,create team rituals,and watch productivity soar
+        </p>
+        <button class="hero-btn">
+          Learn more
+        </button>
+        <!-- hero img -->
+        <div class="hero-img">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+       </div>
+       <!-- hero showcase -->
+       <img src="./images/image-hero-desktop.png" alt="" class="showcase">
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>
